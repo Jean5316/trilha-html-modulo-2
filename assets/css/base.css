@@ -1,0 +1,105 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(138, 67, 67);
+    padding: 10px 20px 0px;
+}
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: small;
+
+}
+
+.header {
+    background-color: rgb(187, 157, 157);
+    min-height: 150px;
+
+
+}
+
+.header img {
+    margin-left: 30%;
+
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    background-image: url(https://th.bing.com/th/id/OIG.9fAgmhUnQrpVDRWKucEp?pid=ImgGn&w=1024&h=1024&rs=1);
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(188, 186, 194);
+    min-height: 150px;
+    text-align: center;
+}
+
+.content table tbody tr:nth-child(even) td {
+    background-color: lightslategray;
+}
+
+.content table tbody tr:hover td {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.content table {
+    border: solid 1px black;
+    box-shadow: 27px 36px 4px -10px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 27px 36px 4px -10px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 27px 36px 4px -10px rgba(0, 0, 0, 0.28);
+
+}
+
+.content table thead th{
+    background-color: lightyellow;
+}
+
+.content table td{
+    background-color: grey;
+}
+
+.content ul li {
+    list-style-type: none;
+
+}
+
+.content ul li a{
+    text-decoration: none;
+}
